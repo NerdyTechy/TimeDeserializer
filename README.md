@@ -15,7 +15,7 @@ Long l = td.deserialize("2w"); // returns 1209600
 If you would like to use multiple time values, for example 2 weeks and 2 days, separate the values with either a comma (,) or a colon (:).
 ```java
 Long l = td.deserialize("2w:2d"); // returns 1382400
-Long l2 = td.deserialize("2m:2s"); // returns 122
+Long l2 = td.deserialize("2m,2s"); // returns 122
 ```
 
 ## Time Definitions
